@@ -1,0 +1,154 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"STV, equal surpluses on the first count settled by decision","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"committee","kind":"election","title":"committee","method":"stv-wigm","seats":3,"candidates":["A","B","C","D","E"],"minPreferences":1,"ballots":[[0,2],[0,2],[0,2],[0,2],[0,2],[0,2],[0,2],[1,3],[1,3],[1,3],[1,3],[1,3],[1,3],[1,3],[2],[3],[4]],"tieDecisions":[{"round":2,"kind":"surplus-order","tied":[0,1],"chosen":1,"how":"entered"}]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "6ae0bfdd50d57b94265cc453677c2d100450df8f98c9d5c5107e84f4a3902832",
+  "fileHash": "1cc2e4f45dd3676a66061a98be752f3d4bef55ae6dc40e88409d851c11de8e00",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "committee",
+      "method": "stv-wigm",
+      "status": "complete",
+      "formal": 17,
+      "informal": 0,
+      "quota": "5.000000",
+      "elected": [
+        0,
+        1,
+        3
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "7.000000",
+            "7.000000",
+            "1.000000",
+            "1.000000",
+            "1.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            0,
+            1
+          ],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 2,
+          "action": {
+            "type": "surplus",
+            "from": 1,
+            "transferValue": "0.285714"
+          },
+          "tallies": [
+            "7.000000",
+            "5.000000",
+            "1.000000",
+            "2.999998",
+            "1.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000002",
+          "elected": [],
+          "excluded": [],
+          "ties": [
+            {
+              "kind": "surplus-order",
+              "tied": [
+                0,
+                1
+              ],
+              "chosen": 1,
+              "by": "decision"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "action": {
+            "type": "surplus",
+            "from": 0,
+            "transferValue": "0.285714"
+          },
+          "tallies": [
+            "5.000000",
+            "5.000000",
+            "2.999998",
+            "2.999998",
+            "1.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000004",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 4,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              4
+            ]
+          },
+          "tallies": [
+            "5.000000",
+            "5.000000",
+            "2.999998",
+            "2.999998",
+            "0.000000"
+          ],
+          "exhausted": "1.000000",
+          "lostToRounding": "0.000004",
+          "elected": [],
+          "excluded": [
+            4
+          ],
+          "ties": []
+        },
+        {
+          "number": 5,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              2
+            ]
+          },
+          "tallies": [
+            "5.000000",
+            "5.000000",
+            "0.000000",
+            "2.999998",
+            "0.000000"
+          ],
+          "exhausted": "3.999998",
+          "lostToRounding": "0.000004",
+          "elected": [
+            3
+          ],
+          "excluded": [
+            2
+          ],
+          "ties": [
+            {
+              "kind": "exclude",
+              "tied": [
+                2,
+                3
+              ],
+              "chosen": 2,
+              "by": "countback"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}}

@@ -1,0 +1,79 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"Resolutions: three bases and a simple majority","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"for-against","kind":"resolution","title":"for-against","motion":"Adopt the new rules","threshold":{"rule":"at-least","numerator":3,"denominator":4},"base":"for-against","ballots":["abstain","against","against","against","against","for","for","for","for","for","for","for","for","for","for","for","for","for","for","for"]},{"id":"all-ballots","kind":"resolution","title":"all-ballots","motion":"Adopt the new rules","threshold":{"rule":"at-least","numerator":3,"denominator":4},"base":"all-ballots","ballots":["abstain","against","against","against","against","for","for","for","for","for","for","for","for","for","for","for","for","for","for","for"]},{"id":"fixed","kind":"resolution","title":"fixed","motion":"Adopt the new rules","threshold":{"rule":"at-least","numerator":3,"denominator":4},"base":{"fixed":21},"ballots":["abstain","against","against","against","against","for","for","for","for","for","for","for","for","for","for","for","for","for","for","for"]},{"id":"even","kind":"resolution","title":"even","motion":"Adopt the new rules","threshold":{"rule":"more-than","numerator":1,"denominator":2},"base":"for-against","ballots":["against","against","against","against","against","against","against","against","against","against","for","for","for","for","for","for","for","for","for","for"]},{"id":"no-base","kind":"resolution","title":"no-base","motion":"Adopt the new rules","threshold":{"rule":"at-least","numerator":3,"denominator":4},"base":"for-against","ballots":["abstain","abstain","abstain"]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "78ab654d7679721b157a3d3023ad8a22453e4cdb54db7fceaab876bc67867103",
+  "fileHash": "78ab654d7679721b157a3d3023ad8a22453e4cdb54db7fceaab876bc67867103",
+  "results": [
+    {
+      "kind": "resolution",
+      "questionId": "for-against",
+      "for": 15,
+      "against": 4,
+      "abstain": 1,
+      "base": 19,
+      "required": {
+        "rule": "at-least",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "carried": true
+    },
+    {
+      "kind": "resolution",
+      "questionId": "all-ballots",
+      "for": 15,
+      "against": 4,
+      "abstain": 1,
+      "base": 20,
+      "required": {
+        "rule": "at-least",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "carried": true
+    },
+    {
+      "kind": "resolution",
+      "questionId": "fixed",
+      "for": 15,
+      "against": 4,
+      "abstain": 1,
+      "base": 21,
+      "required": {
+        "rule": "at-least",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "carried": false
+    },
+    {
+      "kind": "resolution",
+      "questionId": "even",
+      "for": 10,
+      "against": 10,
+      "abstain": 0,
+      "base": 20,
+      "required": {
+        "rule": "more-than",
+        "numerator": 1,
+        "denominator": 2
+      },
+      "carried": false
+    },
+    {
+      "kind": "resolution",
+      "questionId": "no-base",
+      "for": 0,
+      "against": 0,
+      "abstain": 3,
+      "base": 0,
+      "required": {
+        "rule": "at-least",
+        "numerator": 3,
+        "denominator": 4
+      },
+      "carried": false
+    }
+  ]
+}}

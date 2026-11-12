@@ -1,0 +1,77 @@
+{
+ "title": "Division of Clark (Tas), 2025 federal election: AEC distribution of preferences",
+ "source": "https://results.aec.gov.au/31496/Website/Downloads/HouseDopByDivisionDownload-31496.csv",
+ "candidates": [
+  "Andrew WILKIE",
+  "Janet SHELLEY",
+  "Marilena DI FLORIO",
+  "Heidi HECK",
+  "Cathy GRIGGS"
+ ],
+ "counts": [
+  {
+   "totals": [
+    33011,
+    8908,
+    9239,
+    13539,
+    2834
+   ],
+   "transfers": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "totals": [
+    34116,
+    9074,
+    10334,
+    14007,
+    0
+   ],
+   "transfers": [
+    1105,
+    166,
+    1095,
+    468,
+    -2834
+   ]
+  },
+  {
+   "totals": [
+    40513,
+    0,
+    10640,
+    16378,
+    0
+   ],
+   "transfers": [
+    6397,
+    -9074,
+    306,
+    2371,
+    0
+   ]
+  },
+  {
+   "totals": [
+    47531,
+    0,
+    0,
+    20000,
+    0
+   ],
+   "transfers": [
+    7018,
+    0,
+    -10640,
+    3622,
+    0
+   ]
+  }
+ ]
+}

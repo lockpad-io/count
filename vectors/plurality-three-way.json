@@ -1,0 +1,62 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"Block plurality, three tied for two seats","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"committee","kind":"election","title":"committee","method":"plurality","seats":2,"candidates":["A","B","C"],"minPreferences":1,"ballots":[[0],[1],[2]],"tieDecisions":[{"round":1,"kind":"elect","tied":[0,1,2],"chosen":1,"how":"entered"},{"round":1,"kind":"elect","tied":[0,2],"chosen":2,"how":"entered"}]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "301b32452b4ab2e019347de490ff51c6c30875aed4aad2aefe45b2d6e17dd2de",
+  "fileHash": "ae772daed1b5533c6842b59b9a8150e970bb006de57cd92474adce3d11187bea",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "committee",
+      "method": "plurality",
+      "status": "complete",
+      "formal": 3,
+      "informal": 0,
+      "elected": [
+        1,
+        2
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "1.000000",
+            "1.000000",
+            "1.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            1,
+            2
+          ],
+          "excluded": [],
+          "ties": [
+            {
+              "kind": "elect",
+              "tied": [
+                0,
+                1,
+                2
+              ],
+              "chosen": 1,
+              "by": "decision"
+            },
+            {
+              "kind": "elect",
+              "tied": [
+                0,
+                2
+              ],
+              "chosen": 2,
+              "by": "decision"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}}

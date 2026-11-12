@@ -1,0 +1,42 @@
+{
+    "name": "@lockpad/count",
+    "version": "1.0.0",
+    "description": "The vote-counting engine behind lockpad: plurality, preferential (instant runoff) and STV by the weighted inclusive Gregory method.",
+    "private": true,
+    "type": "module",
+    "license": "MIT",
+    "author": "Skylake Digital Pty Ltd",
+    "engines": {
+        "node": ">=24"
+    },
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/lockpad-count.mjs"
+        }
+    },
+    "bin": {
+        "lockpad-count": "./dist/cli.mjs"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "METHODS.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "test": "vitest run",
+        "test:coverage": "vitest run --coverage",
+        "test:perf": "vitest run --config vitest.perf.config.ts",
+        "typecheck": "tsc --noEmit",
+        "build": "node scripts/build.mjs"
+    },
+    "devDependencies": {
+        "@types/node": "24.19.2",
+        "@vitest/coverage-v8": "5.0.5",
+        "esbuild": "0.28.2",
+        "fast-check": "4.10.2",
+        "typescript": "6.0.3",
+        "vitest": "5.0.5"
+    }
+}

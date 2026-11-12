@@ -1,0 +1,61 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"Instant runoff, a majority after one exclusion","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"president","kind":"election","title":"president","method":"irv","seats":1,"candidates":["A","B","C"],"minPreferences":1,"ballots":[[0,1,2],[0,1,2],[0,1,2],[0,1,2],[1,2,0],[1,2,0],[1,2,0],[2,1,0],[2,1,0]],"tieDecisions":[]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "84906015ee179f9c440de4f0bbf96d6d750db43d79337d9cc77cbcf62c1b8755",
+  "fileHash": "84906015ee179f9c440de4f0bbf96d6d750db43d79337d9cc77cbcf62c1b8755",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "president",
+      "method": "irv",
+      "status": "complete",
+      "formal": 9,
+      "informal": 0,
+      "elected": [
+        1
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "4.000000",
+            "3.000000",
+            "2.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 2,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              2
+            ]
+          },
+          "tallies": [
+            "4.000000",
+            "5.000000",
+            "0.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            1
+          ],
+          "excluded": [
+            2
+          ],
+          "ties": []
+        }
+      ]
+    }
+  ]
+}}

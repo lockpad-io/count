@@ -1,0 +1,161 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"No formal ballots, and uncontested elections","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"plurality-none","kind":"election","title":"plurality-none","method":"plurality","seats":2,"candidates":["A","B","C","D"],"minPreferences":1,"ballots":[[],[0,1,2],[7]],"tieDecisions":[]},{"id":"irv-none","kind":"election","title":"irv-none","method":"irv","seats":1,"candidates":["A","B","C"],"minPreferences":1,"ballots":[[],[0,0]],"tieDecisions":[]},{"id":"stv-none","kind":"election","title":"stv-none","method":"stv-wigm","seats":2,"candidates":["A","B","C","D"],"minPreferences":1,"ballots":[[],[9]],"tieDecisions":[]},{"id":"stv-uncontested","kind":"election","title":"stv-uncontested","method":"stv-wigm","seats":3,"candidates":["A","B","C"],"minPreferences":1,"ballots":[[0],[1],[2]],"tieDecisions":[]},{"id":"plurality-uncontested","kind":"election","title":"plurality-uncontested","method":"plurality","seats":2,"candidates":["A","B"],"minPreferences":1,"ballots":[],"tieDecisions":[]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "c61ac3610c704eb25bd233e5b5054119aa1e5b8ca6c77c60bb548e50ee747c2d",
+  "fileHash": "c61ac3610c704eb25bd233e5b5054119aa1e5b8ca6c77c60bb548e50ee747c2d",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "plurality-none",
+      "method": "plurality",
+      "status": "complete",
+      "formal": 0,
+      "informal": 3,
+      "elected": [],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "0.000000",
+            "0.000000",
+            "0.000000",
+            "0.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        }
+      ]
+    },
+    {
+      "kind": "election",
+      "questionId": "irv-none",
+      "method": "irv",
+      "status": "complete",
+      "formal": 0,
+      "informal": 2,
+      "elected": [],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "0.000000",
+            "0.000000",
+            "0.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        }
+      ]
+    },
+    {
+      "kind": "election",
+      "questionId": "stv-none",
+      "method": "stv-wigm",
+      "status": "complete",
+      "formal": 0,
+      "informal": 2,
+      "quota": "1.000000",
+      "elected": [],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "0.000000",
+            "0.000000",
+            "0.000000",
+            "0.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        }
+      ]
+    },
+    {
+      "kind": "election",
+      "questionId": "stv-uncontested",
+      "method": "stv-wigm",
+      "status": "complete",
+      "formal": 3,
+      "informal": 0,
+      "quota": "1.000000",
+      "elected": [
+        0,
+        1,
+        2
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "1.000000",
+            "1.000000",
+            "1.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            0,
+            1,
+            2
+          ],
+          "excluded": [],
+          "ties": []
+        }
+      ]
+    },
+    {
+      "kind": "election",
+      "questionId": "plurality-uncontested",
+      "method": "plurality",
+      "status": "complete",
+      "formal": 0,
+      "informal": 0,
+      "elected": [
+        0,
+        1
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "0.000000",
+            "0.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            0,
+            1
+          ],
+          "excluded": [],
+          "ties": []
+        }
+      ]
+    }
+  ]
+}}

@@ -1,0 +1,135 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"STV, surplus × weight ÷ total truncated once per ballot","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"committee","kind":"election","title":"committee","method":"stv-wigm","seats":3,"candidates":["A","B","C","D","E"],"minPreferences":1,"ballots":[[0,1,3],[0,1,3],[0,1,3],[0,1,3],[0,1,3],[0,1,3],[0,1,3],[0,1,3],[1,2],[1,2],[1,2],[2],[3],[3],[4,3],[4,3],[4,3]],"tieDecisions":[]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "0dafc12d159458f4a492b9aa41aed1e2b04c6759b825dcd61e93bee650823956",
+  "fileHash": "0dafc12d159458f4a492b9aa41aed1e2b04c6759b825dcd61e93bee650823956",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "committee",
+      "method": "stv-wigm",
+      "status": "complete",
+      "formal": 17,
+      "informal": 0,
+      "quota": "5.000000",
+      "elected": [
+        0,
+        1,
+        4
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "8.000000",
+            "3.000000",
+            "1.000000",
+            "2.000000",
+            "3.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            0
+          ],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 2,
+          "action": {
+            "type": "surplus",
+            "from": 0,
+            "transferValue": "0.375000"
+          },
+          "tallies": [
+            "5.000000",
+            "6.000000",
+            "1.000000",
+            "2.000000",
+            "3.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            1
+          ],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 3,
+          "action": {
+            "type": "surplus",
+            "from": 1,
+            "transferValue": "0.166666"
+          },
+          "tallies": [
+            "5.000000",
+            "5.000000",
+            "1.499998",
+            "2.500000",
+            "3.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000002",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 4,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              2
+            ]
+          },
+          "tallies": [
+            "5.000000",
+            "5.000000",
+            "0.000000",
+            "2.500000",
+            "3.000000"
+          ],
+          "exhausted": "1.499998",
+          "lostToRounding": "0.000002",
+          "elected": [],
+          "excluded": [
+            2
+          ],
+          "ties": []
+        },
+        {
+          "number": 5,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              3
+            ]
+          },
+          "tallies": [
+            "5.000000",
+            "5.000000",
+            "0.000000",
+            "0.000000",
+            "3.000000"
+          ],
+          "exhausted": "3.999998",
+          "lostToRounding": "0.000002",
+          "elected": [
+            4
+          ],
+          "excluded": [
+            3
+          ],
+          "ties": []
+        }
+      ]
+    }
+  ]
+}}

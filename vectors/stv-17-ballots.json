@@ -1,0 +1,108 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"STV, 17 ballots, 2 seats","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"committee","kind":"election","title":"committee","method":"stv-wigm","seats":2,"candidates":["A","B","C","D"],"minPreferences":1,"ballots":[[0,1,2],[0,1,2],[0,1,2],[0,1,2],[0,1,2],[0,1,2],[0,2],[0,2],[1],[1],[1],[1],[2,3],[2,3],[2,3],[3],[3,2]],"tieDecisions":[]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "645c160d74d5f666eb0007f4c1e3a1f7de96ce3bfc64a2111b63893c737cdbcb",
+  "fileHash": "645c160d74d5f666eb0007f4c1e3a1f7de96ce3bfc64a2111b63893c737cdbcb",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "committee",
+      "method": "stv-wigm",
+      "status": "complete",
+      "formal": 17,
+      "informal": 0,
+      "quota": "6.000000",
+      "elected": [
+        0,
+        1
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "8.000000",
+            "4.000000",
+            "3.000000",
+            "2.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            0
+          ],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 2,
+          "action": {
+            "type": "surplus",
+            "from": 0,
+            "transferValue": "0.250000"
+          },
+          "tallies": [
+            "6.000000",
+            "5.500000",
+            "3.500000",
+            "2.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 3,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              3
+            ]
+          },
+          "tallies": [
+            "6.000000",
+            "5.500000",
+            "4.500000",
+            "0.000000"
+          ],
+          "exhausted": "1.000000",
+          "lostToRounding": "0.000000",
+          "elected": [],
+          "excluded": [
+            3
+          ],
+          "ties": []
+        },
+        {
+          "number": 4,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              2
+            ]
+          },
+          "tallies": [
+            "6.000000",
+            "5.500000",
+            "0.000000",
+            "0.000000"
+          ],
+          "exhausted": "5.500000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            1
+          ],
+          "excluded": [
+            2
+          ],
+          "ties": []
+        }
+      ]
+    }
+  ]
+}}

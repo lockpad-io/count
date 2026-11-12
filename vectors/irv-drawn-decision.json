@@ -1,0 +1,71 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"IRV tie settled by the seeded draw","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"president","kind":"election","title":"president","method":"irv","seats":1,"candidates":["A","B","C"],"minPreferences":1,"ballots":[[0],[0],[0],[1],[1],[2],[2]],"tieDecisions":[{"round":2,"kind":"exclude","tied":[1,2],"chosen":1,"how":"draw","witnessValue":"kookaburra"}]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "84d7bad020b4b6da3189c797d5499b70555dbd0507c4d32f0f1cab986876efa2",
+  "fileHash": "f4c9281e7d48fa286c352dc1e77ef24a353e1837855a32f173dc6a73c73d80db",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "president",
+      "method": "irv",
+      "status": "complete",
+      "formal": 7,
+      "informal": 0,
+      "elected": [
+        0
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "3.000000",
+            "2.000000",
+            "2.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 2,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              1
+            ]
+          },
+          "tallies": [
+            "3.000000",
+            "0.000000",
+            "2.000000"
+          ],
+          "exhausted": "2.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            0
+          ],
+          "excluded": [
+            1
+          ],
+          "ties": [
+            {
+              "kind": "exclude",
+              "tied": [
+                1,
+                2
+              ],
+              "chosen": 1,
+              "by": "decision"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}}

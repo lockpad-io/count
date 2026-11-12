@@ -1,0 +1,83 @@
+{"file":{"format":"lockpad-ballots","version":1,"engine":"1.0.0","title":"STV, a transfer value of one third","notice":"This file holds every ballot without any link to a voter. An unusual ranking could still identify a voter to someone who told them how to rank, so share it only when you need to.","questions":[{"id":"committee","kind":"election","title":"committee","method":"stv-wigm","seats":2,"candidates":["A","B","C"],"minPreferences":1,"ballots":[[0,1],[0,1],[0,2]],"tieDecisions":[]}]},
+"output":{
+  "engine": "1.0.0",
+  "fileEngine": "1.0.0",
+  "ballotsHash": "5b9b55faf9e2a23169c8f6e07ab4cfed7923ab560c112db5e274610eb6047fa8",
+  "fileHash": "5b9b55faf9e2a23169c8f6e07ab4cfed7923ab560c112db5e274610eb6047fa8",
+  "results": [
+    {
+      "kind": "election",
+      "questionId": "committee",
+      "method": "stv-wigm",
+      "status": "complete",
+      "formal": 3,
+      "informal": 0,
+      "quota": "2.000000",
+      "elected": [
+        0,
+        1
+      ],
+      "rounds": [
+        {
+          "number": 1,
+          "action": {
+            "type": "first-count"
+          },
+          "tallies": [
+            "3.000000",
+            "0.000000",
+            "0.000000"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000000",
+          "elected": [
+            0
+          ],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 2,
+          "action": {
+            "type": "surplus",
+            "from": 0,
+            "transferValue": "0.333333"
+          },
+          "tallies": [
+            "2.000000",
+            "0.666666",
+            "0.333333"
+          ],
+          "exhausted": "0.000000",
+          "lostToRounding": "0.000001",
+          "elected": [],
+          "excluded": [],
+          "ties": []
+        },
+        {
+          "number": 3,
+          "action": {
+            "type": "exclude",
+            "candidates": [
+              2
+            ]
+          },
+          "tallies": [
+            "2.000000",
+            "0.666666",
+            "0.000000"
+          ],
+          "exhausted": "0.333333",
+          "lostToRounding": "0.000001",
+          "elected": [
+            1
+          ],
+          "excluded": [
+            2
+          ],
+          "ties": []
+        }
+      ]
+    }
+  ]
+}}
